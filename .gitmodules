@@ -1,0 +1,6 @@
+[submodule "custom/luci-app-mentohust"]
+	path = custom/luci-app-mentohust
+	url = https://github.com/KumaTea/luci-app-mentohust
+[submodule "custom/mentohust"]
+	path = custom/mentohust
+	url = https://github.com/KumaTea/MentoHUST-SYSU-OpenWrt
