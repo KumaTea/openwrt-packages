@@ -4,3 +4,6 @@
 [submodule "custom/mentohust"]
 	path = custom/mentohust
 	url = https://github.com/KumaTea/MentoHUST-SYSU-OpenWrt
+[submodule "custom/minieap"]
+	path = custom/minieap
+	url = https://github.com/KumaTea/openwrt-minieap
