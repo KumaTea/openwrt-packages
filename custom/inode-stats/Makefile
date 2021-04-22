@@ -2,19 +2,18 @@ include $(TOPDIR)/rules.mk
 include $(INCLUDE_DIR)/package.mk
 
 PKG_NAME:=inode-stats
-PKG_VERSION:=0.1
+PKG_VERSION:=0.1.1
 PKG_RELEASE:=1
 
-PKG_INSTALL:=1
+# PKG_INSTALL:=1
 
-define Package/inode-stats
+define Package/$(PKG_NAME)
 	SECTION:=utils
 	CATEGORY:=Utilities
-	# SUBMENU:=Shells
 	TITLE:=inode stats
 endef
 
-define Package/inode-stats/description
+define Package/$(PKG_NAME)/description
 	The inode stats for devices which lacks inode support in the df util.
 endef
 
@@ -35,7 +34,7 @@ define Build/Compile
 	LDFLAGS="$(TARGET_LDFLAGS)"
 endef
 
-define Package/inode-stats/install
+define Package/$(PKG_NAME)/install
 	$(INSTALL_DIR) $(1)/usr/bin
 	$(INSTALL_BIN) $(PKG_BUILD_DIR)/inode-stats $(1)/usr/bin/
 endef
