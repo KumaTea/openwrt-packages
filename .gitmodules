@@ -6,4 +6,4 @@
 	url = https://github.com/KumaTea/luci-app-mentohust
 [submodule "minieap"]
 	path = minieap
-	url = https://github.com/KumaTea/minieap
+	url = https://github.com/KumaTea/openwrt-minieap
