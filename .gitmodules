@@ -1,9 +1,9 @@
-[submodule "mentohust"]
-	path = mentohust
-	url = https://github.com/KumaTea/MentoHUST-SYSU-OpenWrt
-[submodule "luci-app-mentohust"]
-	path = luci-app-mentohust
+[submodule "applications/luci-app-mentohust"]
+	path = applications/luci-app-mentohust
 	url = https://github.com/KumaTea/luci-app-mentohust
-[submodule "minieap"]
-	path = minieap
+[submodule "net/mentohust"]
+	path = net/mentohust
+	url = https://github.com/KumaTea/MentoHUST-SYSU-OpenWrt
+[submodule "net/minieap"]
+	path = net/minieap
 	url = https://github.com/KumaTea/openwrt-minieap
