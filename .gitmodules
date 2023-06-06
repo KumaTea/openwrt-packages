@@ -7,3 +7,12 @@
 [submodule "net/minieap"]
 	path = net/minieap
 	url = https://github.com/KumaTea/openwrt-minieap
+[submodule "net/vlmcsd"]
+	path = net/vlmcsd
+	url = https://github.com/cokebar/openwrt-vlmcsd
+[submodule "applications/luci-app-vlmcsd"]
+	path = applications/luci-app-vlmcsd
+	url = https://github.com/cokebar/luci-app-vlmcsd
+[submodule "applications/luci-app-zerotier"]
+	path = applications/luci-app-zerotier
+	url = https://github.com/rufengsuixing/luci-app-zerotier
